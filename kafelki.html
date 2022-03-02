@@ -1,78 +1,179 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kocham VUE</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  </head>
-  <body>
+   <head>
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <title>Kocham VUE</title>
+      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+      <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+   </head>
+   <body>
     <nav class="navbar is-primary">
-        <div class="tabs is-centered is-boxed is-medium">
-            <ul>
-              <li class="is-active">
-                <a>
-                  <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
-                  <span>Kafelki </span>
-                </a>
-              </li>
-              <li>
-                <a>
-                  <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
-                  <span>Logowanie</span>
-                </a>
-              </li>
-              
-            </ul>
-          </div>
-          
- 
-  <!-- navbar brand, navbar menu... -->
+      <div class="tabs is-centered is-boxed is-medium">
+          <ul>
+            <li class="is-active">
+              <a href ="formularz.html">
+                <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                <span>Logowanie </span>
+              </a>
+            </li>
+            <li>
+              <a href ="kafelki.html">
+                <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                <span>Kafelki</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+
+<!-- navbar brand, navbar menu... -->
 </nav>
-<div class="tile is-ancestor">
-    <div class="tile is-vertical is-8">
+<div class="content container has-text-centered">
+<h1>Kafelki</h1>
+
+  <!-- Tiles starts here -->
+  <div class="tile is-ancestor">
+    <div class="tile is-parent">
+      <article class="tile is-child box 
+                      has-background-warning">
+        <p class="title">Piwo</p>
+
+        <p class="subtitle"></p>
+
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box 
+                      has-background-info">
+        <p class="title">Piwo</p>
+
+        <p class="subtitle"></p>
+
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box 
+                      has-background-danger">
+        <p class="title">Piwo</p>
+
+        <p class="subtitle"></p>
+
+      </article>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box 
+                      has-background-primary">
+        <p class="title">Piwo</p>
+
+        <p class="subtitle"></p>
+
+      </article>
+    </div>
+  </div>
+
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-9">
       <div class="tile">
-        <div class="tile is-parent is-vertical">
-          <article class="tile is-child notification is-primary">
-            <p class="title">Lorem ipsum</p>
-            <p class="subtitle">Lorem ipsum</p>
+        <div class="tile is-parent">
+          <article class="tile is-child 
+                          box has-background-success">
+            <p class="title">Piwo</p>
+
+            <p class="subtitle"></p>
+
+            <div class="content">
+            </div>
           </article>
-          <article class="tile is-child notification is-warning">
-            <p class="title">Lorem ipsum</p>
-            <p class="subtitle">Lorem ipsum</p>
+        </div>
+        <div class="tile is-8 is-vertical">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child box
+                              has-background-dark">
+                <p class="title has-text-white">
+                  Piwo</p>
+
+                <p class="subtitle has-text-white">
+                 </p>
+
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box
+                              has-background-warning">
+                <p class="title">
+                  Piwo</p>
+
+                <p class="subtitle">
+                 </p>
+
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box
+                            has-background-danger">
+              <p class="title">
+                Piwo</p>
+
+              <p class="subtitle">
+               </p>
+
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="tile is-8 is-parent">
+          <article class="tile is-child box
+                          has-background-info">
+            <p class="title">
+              Piwo</p>
+
+            <p class="subtitle">
+              </p>
+
+            <div class="content">
+            </div>
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child notification is-info">
-            <p class="title">Lorem ipsum</p>
-            <p class="subtitle">Lorem ipsum</p>
-            <figure class="image is-4by3">
-              <img src=https://everyevery.ng/wp-content/uploads/2022/02/Vladimir-Putin-Asks-Ukrainian-Citizens-to-Overthrow-Volodymyr-Zelenskyy.jpg>
-            </figure>
+          <article class="tile is-child box 
+                          has-background-success">
+            <p class="title">Piwo</p>
+
+            <p class="subtitle"></p>
+
+            <div class="content">
+            </div>
           </article>
         </div>
       </div>
-      <div class="tile is-parent">
-        <article class="tile is-child notification is-danger">
-          <p class="title">Lorem ipsum</p>
-          <p class="subtitle">Lorem ipsum</p>
-          <div class="content">
-            <!-- Content -->
-          </div>
-        </article>
-      </div>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-success">
+      <article class="tile is-child box">
         <div class="content">
-          <p class="title">Lorem ipsum</p>
-          <p class="subtitle">Lorem ipsum</p>
+          <p class="title has-text-success">
+            
+          </p>
+
+         
+
           <div class="content">
-            <!-- Content -->
+            <figure class="image is-4by4">
+                <img src=
+"https://www.josera.pl/media/kot-brytyjski-03.jpg">
+              </figure>
+              <p>
+                Fajny kot
+              </p>
+
           </div>
         </div>
       </article>
     </div>
   </div>
-</body>
+</div>
+   </body>
 </html>
